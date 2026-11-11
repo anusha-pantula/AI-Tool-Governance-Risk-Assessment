@@ -1,0 +1,2 @@
+risk_id,tool_name,category,use_case,risk_description,cause,affected_stakeholders,existing_controls,likelihood_1_to_5,impact_1_to_5,inherent_score,inherent_level,proposed_mitigations,implemented_controls,residual_likelihood_1_to_5,residual_impact_1_to_5,residual_score,residual_level,risk_owner_role,monitoring_trigger,evidence_label,evidence_reference,confidence,assumptions_and_limitations,status
+R-001,,,,,,,,,,,,,,,,,,,,,,,,

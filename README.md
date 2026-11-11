@@ -59,7 +59,7 @@ This is an educational and research portfolio project. It is not a legal opinion
 
 ## Current status
 
-**Design and methodology setup.** Tool selection, research, practical testing, analysis, and recommendations are planned work and must not be treated as completed findings.
+**Project design and initial tool selection complete.** The selected tools are ChatGPT (chatbot), Zapier Agents (AI agent), Adobe Firefly (image generation), and Runway (video generation). Public plan information has been reviewed; individual account access and exact feature availability remain to be verified. No practical assessment findings have been produced yet.
 
 ## How to use this repository
 

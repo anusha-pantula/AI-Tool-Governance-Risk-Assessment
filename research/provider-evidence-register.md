@@ -40,8 +40,8 @@
 
 | Topic | Documented information | Governance relevance | Source |
 |---|---|---|---|
-| Free-plan credits | Runway's help article states that the Free plan includes a one-time deposit of 125 credits that does not expire. Rates vary by tool/model. | A fixed credit allowance constrains the number of repeatability tests; record the balance and displayed cost before generation. | [How do credits work?](https://help.runwayml.com/hc/en-us/articles/15124877443219-How-do-credits-work) |
-| Current Gen-4.5 access | Runway's Gen-4.5 guide lists Standard and higher as the plan requirement, at 12 credits per second, with 2–10 second durations. | Do not assume the user's free account can access Gen-4.5. Record the model actually available in the account. | [Creating with Gen-4.5](https://help.runwayml.com/hc/en-us/articles/46974685288467-Creating-with-Gen-4-5) |
+| Free-plan credits | Runway's current Free plan documentation states that it includes a one-time 125-credit allocation and 5 GB of asset storage. Credits do not expire or renew after they are spent. Supported models are limited and can change; inspect the signed-in account. | A fixed credit allowance constrains the number of repeatability tests; record the balance and displayed cost before generation. | [Free plan details](https://help.runwayml.com/hc/en-us/articles/50404627334547-Free-plan-details); [How do credits work?](https://help.runwayml.com/hc/en-us/articles/15124877443219-How-do-credits-work) |
+| Current Gen-4.5 access | Runway's Gen-4.5 guide lists Standard and higher as the plan requirement, at 12 credits per second, with 2–10 second durations. Therefore Gen-4.5 should not be assumed available under the Free plan. | Do not assume the user's free account can access Gen-4.5. Record the model actually available in the account. | [Creating with Gen-4.5](https://help.runwayml.com/hc/en-us/articles/46974685288467-Creating-with-Gen-4-5) |
 | Older Gen-4 model | Runway documents Gen-4 as image-to-video with 5- or 10-second durations; its Turbo version uses fewer credits than Gen-4. | Model version and input requirements materially affect cost and what is being tested. | [Creating with Gen-4 Video](https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video) |
 | Content moderation | Runway says its moderation system scans inputs and generated outputs against its Usage Policy and cannot be disabled for an account, project or topic. | Moderation is a control, but users should understand its scope, false positives and appeal/operational implications. | [Why is my input getting content moderated?](https://help.runwayml.com/hc/en-us/articles/21745792516371-Why-is-my-input-getting-content-moderated) |
 
@@ -50,6 +50,7 @@
 ## Research limitations
 
 - These are provider-authored sources and are not independent audits.
+- Documentation snapshot rechecked on 12 November 2026. For example, Adobe's Firefly FAQ was updated 10 November 2026; Zapier's Agents guide was updated 1 October 2026.
 - Product interfaces, model availability, plan limits and policies can change. Re-check them on the date of each practical test.
 - The project does not infer that provider statements are independently verified.
 - No legal conclusion is made about copyright, privacy, data protection or regulatory compliance.
@@ -58,3 +59,13 @@
 
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) — voluntary framework for incorporating trustworthiness considerations into AI design, development, use and evaluation. NIST notes that AI RMF 1.0 is being revised.
 - [OECD AI Principles](https://www.oecd.org/en/topics/sub-issues/ai-principles.html) — updated in 2024; includes transparency, robustness, security, safety and accountability.
+
+## Additional source links
+
+- OpenAI, [Data controls in ChatGPT](https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt) — current settings and personal-workspace model-improvement controls.
+- OpenAI, [Temporary chat in ChatGPT](https://help.openai.com/en/articles/8914046) — temporary chat history, model-improvement and retention behaviour.
+- Zapier, [Build an agent in Zapier Agents](https://help.zapier.com/hc/en-us/articles/24393442652557-Build-an-agent-in-Zapier-Agents) — agent configuration, testing, publishing, activities and transition notice.
+- Zapier, [Add your own data to an agent](https://help.zapier.com/hc/en-us/articles/24569690575117-Add-your-own-data-to-an-agent) — knowledge sources and search actions.
+- Adobe, [Content Credentials overview](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html) — when credentials are automatically applied and what they communicate.
+- Runway, [Free plan details](https://help.runwayml.com/hc/en-us/articles/50404627334547-Free-plan-details) — current free-tier credit allocation and supported-model caveat.
+- Runway, [Creating with Gen-4.5](https://help.runwayml.com/hc/en-us/articles/46974685288467-Creating-with-Gen-4-5) — plan requirement, generation cost and duration.

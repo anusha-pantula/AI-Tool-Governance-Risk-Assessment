@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An evidence-based assessment of four AI tools for general organisational use.">
+  <title>AI Tool Governance & Risk Assessment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Project home"><span class="brand-mark">G</span><span>AI Governance <span class="muted">/ Field assessment</span></span></a>
+    <nav aria-label="Main navigation"><a href="#tools">Tools</a><a href="#framework">Framework</a><a href="#method">Method</a><a class="repo-link" href="https://github.com/anusha-pantula/AI-Tool-Governance-Risk-Assessment" target="_blank" rel="noreferrer">GitHub ↗</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="pulse"></span> INDEPENDENT PORTFOLIO PROJECT <span class="eyebrow-line"></span> 2026–27</div>
+      <h1>Before adopting AI,<br><span>understand the risk.</span></h1>
+      <p class="hero-copy">A practical, evidence-led assessment of AI tools for general organisational use. Comparing capabilities is only the start. The focus is on reliability, risk, human oversight and proportionate safeguards.</p>
+      <div class="hero-actions"><a class="primary-button" href="#tools">Explore the tools <span>↓</span></a><a class="text-button" href="methodology/project-overview.md">Read the project brief ↗</a></div>
+      <div class="hero-note"><span class="note-dot"></span> Research and testing are in progress. No tool has been scored or endorsed.</div>
+    </section>
+
+    <section class="metrics" aria-label="Project status">
+      <div class="metric"><span class="metric-value">04</span><span class="metric-label">AI tools in scope</span></div>
+      <div class="metric"><span class="metric-value">07</span><span class="metric-label">Assessment dimensions</span></div>
+      <div class="metric"><span class="metric-value">20</span><span class="metric-label">Planned practical tests</span></div>
+      <div class="metric"><span class="metric-value">0</span><span class="metric-label">Completed test cases</span></div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="section-heading"><div><div class="eyebrow">01 / TOOL LANDSCAPE</div><h2>Four tools. Four AI categories.</h2></div><p>One representative tool per category, assessed using a consistent set of criteria.</p></div>
+      <div class="filters" role="group" aria-label="Filter tools">
+        <button class="filter active" data-filter="all" aria-pressed="true">All tools <span>04</span></button>
+        <button class="filter" data-filter="chatbot" aria-pressed="false">Chatbot</button>
+        <button class="filter" data-filter="agent" aria-pressed="false">AI agent</button>
+        <button class="filter" data-filter="image" aria-pressed="false">Image</button>
+        <button class="filter" data-filter="video" aria-pressed="false">Video</button>
+      </div>
+      <div class="tool-grid" id="tool-grid">
+        <article class="tool-card" data-category="chatbot">
+          <div class="tool-top"><span class="tool-icon icon-chat">✳</span><span class="status"><i></i> Awaiting assessment</span></div>
+          <div class="tool-category">CHATBOT</div><h3>ChatGPT</h3><p>Conversational AI for information synthesis, drafting, reasoning support and everyday knowledge work.</p>
+          <div class="tool-meta"><span>Provider</span><strong>OpenAI</strong></div><div class="tool-meta"><span>Test cases</span><strong>05 planned · 0 complete</strong></div>
+          <a class="card-link" href="assessments/chatbot-chatgpt/README.md">Assessment notes <span>↗</span></a>
+        </article>
+        <article class="tool-card" data-category="agent">
+          <div class="tool-top"><span class="tool-icon icon-agent">⌘</span><span class="status"><i></i> Awaiting assessment</span></div>
+          <div class="tool-category">AI AGENT</div><h3>Zapier Agents</h3><p>Agent-based workflows designed to connect tasks, information and actions across work applications.</p>
+          <div class="tool-meta"><span>Provider</span><strong>Zapier</strong></div><div class="tool-meta"><span>Test cases</span><strong>05 planned · 0 complete</strong></div>
+          <a class="card-link" href="assessments/agent-zapier-agents/README.md">Assessment notes <span>↗</span></a>
+        </article>
+        <article class="tool-card" data-category="image">
+          <div class="tool-top"><span class="tool-icon icon-image">▧</span><span class="status"><i></i> Awaiting assessment</span></div>
+          <div class="tool-category">IMAGE GENERATION</div><h3>Adobe Firefly</h3><p>Generative image tools for creating and editing visual assets from text and image inputs.</p>
+          <div class="tool-meta"><span>Provider</span><strong>Adobe</strong></div><div class="tool-meta"><span>Test cases</span><strong>05 planned · 0 complete</strong></div>
+          <a class="card-link" href="assessments/image-adobe-firefly/README.md">Assessment notes <span>↗</span></a>
+        </article>
+        <article class="tool-card" data-category="video">
+          <div class="tool-top"><span class="tool-icon icon-video">▶</span><span class="status"><i></i> Awaiting assessment</span></div>
+          <div class="tool-category">VIDEO GENERATION</div><h3>Runway</h3><p>Generative video tools for producing and transforming short-form video content.</p>
+          <div class="tool-meta"><span>Provider</span><strong>Runway</strong></div><div class="tool-meta"><span>Test cases</span><strong>05 planned · 0 complete</strong></div>
+          <a class="card-link" href="assessments/video-runway/README.md">Assessment notes <span>↗</span></a>
+        </article>
+      </div>
+      <p class="small-note">Tool descriptions are scope summaries, not performance findings. Features, model versions and free-tier limits will be recorded at the time of testing.</p>
+    </section>
+
+    <section class="framework-section" id="framework">
+      <div class="section-heading"><div><div class="eyebrow">02 / ASSESSMENT FRAMEWORK</div><h2>Seven dimensions of scrutiny.</h2></div><p>A common assessment lens makes the four tools easier to compare without pretending they perform the same job.</p></div>
+      <div class="dimension-list">
+        <div class="dimension"><span>01</span><div><h3>Purpose & capabilities</h3><p>Intended use, core functions, limitations and fit for the task.</p></div><b>Scope</b></div>
+        <div class="dimension"><span>02</span><div><h3>Reliability & performance</h3><p>Accuracy, consistency, failure modes and output quality.</p></div><b>Quality</b></div>
+        <div class="dimension"><span>03</span><div><h3>Safety & misuse</h3><p>Potential harms, misuse pathways and safeguards.</p></div><b>Safety</b></div>
+        <div class="dimension"><span>04</span><div><h3>Privacy & data handling</h3><p>Data inputs, retention, processing and user controls.</p></div><b>Data</b></div>
+        <div class="dimension"><span>05</span><div><h3>Transparency & accountability</h3><p>Disclosure, traceability, provider information and responsibility.</p></div><b>Trust</b></div>
+        <div class="dimension"><span>06</span><div><h3>Human oversight & control</h3><p>Review points, permissions, reversibility and escalation.</p></div><b>Control</b></div>
+        <div class="dimension"><span>07</span><div><h3>Organisational suitability</h3><p>Use-case fit, workforce impact, governance and monitoring needs.</p></div><b>Adoption</b></div>
+      </div>
+    </section>
+
+    <section class="section" id="method">
+      <div class="section-heading"><div><div class="eyebrow">03 / EVIDENCE & METHOD</div><h2>Show the evidence. State the limits.</h2></div><p>Conclusions will be traceable to their source and separated from assumptions or unknowns.</p></div>
+      <div class="evidence-grid">
+        <div class="evidence-card"><span class="evidence-symbol">01</span><h3>Provider statement</h3><p>Information published by the tool provider.</p></div>
+        <div class="evidence-card"><span class="evidence-symbol">02</span><h3>Independent source</h3><p>External research, standards or credible reporting.</p></div>
+        <div class="evidence-card"><span class="evidence-symbol">03</span><h3>Project observation</h3><p>What was directly observed in a documented test.</p></div>
+        <div class="evidence-card"><span class="evidence-symbol">04</span><h3>Inference / unknown</h3><p>Reasoned interpretation or information not verified.</p></div>
+      </div>
+      <div class="method-callout"><div><span class="eyebrow">PROJECT BOUNDARIES</span><h3>Practical, not performative.</h3><p>This is an educational portfolio assessment, not a legal opinion, certification, compliance audit, penetration test or security audit. Testing uses non-sensitive inputs and does not bypass safeguards or connect live systems without authorisation.</p></div><a href="methodology/testing-methodology.md">Testing methodology ↗</a></div>
+    </section>
+
+    <section class="closing">
+      <div class="eyebrow">THE OBJECTIVE</div><h2>Not “Which AI is best?”<br><span>But “When is it appropriate to use?”</span></h2>
+      <p>The final output will be a comparative assessment, a risk register and practical adoption recommendations, grounded in documented evidence.</p>
+      <a class="primary-button" href="https://github.com/anusha-pantula/AI-Tool-Governance-Risk-Assessment" target="_blank" rel="noreferrer">View project repository ↗</a>
+    </section>
+  </main>
+  <footer><span>AI TOOL GOVERNANCE & RISK ASSESSMENT FRAMEWORK</span><span>Independent portfolio project · 2026–27</span></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

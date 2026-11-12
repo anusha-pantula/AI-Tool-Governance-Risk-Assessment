@@ -1,6 +1,6 @@
 # Tool selection and access checks
 
-**Status:** Tool selection approved. Adobe Firefly and Runway free-generation access confirmed by the project owner on 12 November 2026. Zapier Agents account access remains unverified.
+**Status:** Tool selection approved. Free access to Zapier Agents, Adobe Firefly, and Runway confirmed by the project owner on 12 November 2026. ChatGPT text access is available in the current session.
 
 **Selection principle:** Choose tools with organisational relevance, useful provider documentation, and a realistic route to hands-on evaluation without requiring paid subscriptions wherever possible.
 
@@ -9,7 +9,7 @@
 | Category | Selected tool | Provider | Selection rationale | Access status |
 |---|---|---|---|---|
 | Conversational chatbot | ChatGPT | OpenAI | Broadly used conversational assistant; supports tests of reliability, uncertainty, safety, data handling, transparency, and human review. | Public free tier documented; individual feature access and limits must be recorded at test time. |
-| AI agent | Zapier Agents | Zapier | Workflow-oriented agent product; enables examination of task execution, integrations, permissions, action boundaries, and approval. | Account access not yet confirmed; verify current product interface and free allowance. |
+| AI agent | Zapier Agents | Zapier | Workflow-oriented agent product; enables examination of task execution, integrations, permissions, action boundaries, and approval. | **Free dashboard and allowance confirmed by project owner**; record the exact activity balance, product interface and limits before testing. |
 | Image generation | Adobe Firefly | Adobe | Established creative AI product; useful for prompt adherence, representation, provenance, intellectual-property claims, and synthetic-media governance. | **Free generations confirmed by project owner**; record exact model and daily allowance before testing. |
 | Video generation | Runway | Runway | Dedicated generative video platform; useful for realism, continuity, prompt fidelity, and synthetic-media risks. | **Free generations confirmed by project owner**; record remaining credits, model and generation cost before testing. |
 
@@ -57,7 +57,7 @@ Complete this checklist after signing into each provider. Do not record an acces
 | Tool | Account created / signed in | Free access confirmed | Required feature visible | Usage allowance recorded | Date checked | Notes |
 |---|---|---|---|---|---|---|
 | ChatGPT | Pending | Public free tier documented | Pending | Pending | Pending | Record displayed model and plan limits. |
-| Zapier Agents | Pending | Not yet confirmed | Pending | Pending | Pending | Check whether standalone Agents or AI by Zapier is available and record the exact usage counter. |
+| Zapier Agents | Confirmed by project owner | Yes | Standalone Agents dashboard accessible | Pending | 2026-11-12 | User confirms free allowance and dashboard access. Record remaining activities, interface details and per-run limit before testing. |
 | Adobe Firefly | Confirmed by project owner | Yes | Free generations available (exact feature/model to log) | Pending | 2026-11-12 | User reports free generations are available. Confirm Text to Image and record the daily allowance before testing. |
 | Runway | Confirmed by project owner | Yes | Free generations available (exact model to log) | Pending | 2026-11-12 | User reports free generations are available. Record remaining credits, model and per-generation cost before testing. |
 

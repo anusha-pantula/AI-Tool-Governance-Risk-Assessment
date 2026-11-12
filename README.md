@@ -1,6 +1,12 @@
 # AI Tool Governance & Risk Assessment Framework
 
-An evidence-based, repeatable framework for assessing AI tools in general organisational settings. The project combines desk research, structured practical tests, qualitative risk assessment, and proportionate governance recommendations.
+An evidence-based, repeatable framework for assessing AI tools in general organisational settings.
+
+## Project dashboard
+
+**[Open the interactive project dashboard](https://anusha-pantula.github.io/AI-Tool-Governance-Risk-Assessment/)**
+
+The dashboard is the visual entry point to the project. It summarises the selected tools, assessment dimensions, evidence approach and current testing status. It will be updated as documented assessments are completed.
 
 ## Project purpose
 
@@ -29,29 +35,11 @@ Each selected tool will be examined across seven dimensions:
 6. Human oversight and control
 7. Organisational suitability and safeguards
 
-The common criteria are operationalised in [Common AI tool assessment criteria](methodology/common-assessment-criteria.md). The work will combine provider documentation, independent sources, practical observations using non-sensitive inputs, a qualitative risk register, and adoption recommendations.
-
-## Planned repository contents
-
-- `methodology/`: project scope, assessment framework, common criteria, testing method, and risk method
-- `templates/`: reusable assessment, test-case, and risk-register templates
-- `assessments/`: completed assessments for the selected tools
-- `research/`: tool selection, access checks, governance references, and source notes
-- `findings/`: cross-tool comparison and recommendations
-
-Assessment folders will be populated only after the corresponding research and tests have been completed.
+The common criteria are operationalised in [Common AI tool assessment criteria](methodology/common-assessment-criteria.md). The work combines provider documentation, independent sources, practical observations using non-sensitive inputs, a qualitative risk register, and adoption recommendations.
 
 ## Evidence discipline
 
-Findings will distinguish between:
-
-- **Provider statement:** information published by the tool provider
-- **Independent source:** information from an external source
-- **Project observation:** what was observed during a documented test
-- **Inference:** a reasoned interpretation based on available evidence
-- **Unknown / not verified:** information that could not be established
-
-A provider claim will not be presented as an independently verified result. A limited project test will not be described as a comprehensive benchmark, security audit, or proof of safety.
+Findings will distinguish between provider statements, independent sources, project observations, inferences, and unknown or unverified information. Provider claims will not be presented as independently verified results. Limited project tests will not be described as comprehensive benchmarks, security audits, or proof of safety.
 
 ## Boundaries
 
@@ -59,8 +47,14 @@ This is an educational and research portfolio project. It is not a legal opinion
 
 ## Current status
 
-**Project design, initial tool selection, and owner-reported free access confirmation complete.** The selected tools are ChatGPT, Zapier Agents, Adobe Firefly, and Runway. Exact feature availability, model/version, and quotas still need to be recorded. No practical assessment findings have been produced yet.
+**Dashboard prototype created.** Project design, initial tool selection, and owner-reported free access confirmation are complete. Practical testing has not yet begun, and no assessment findings or recommendations have been produced.
 
-## How to use this repository
+## Repository structure
 
-Start with [Project overview](methodology/project-overview.md), then review the [assessment framework](methodology/assessment-framework.md), [common assessment criteria](methodology/common-assessment-criteria.md), and [testing methodology](methodology/testing-methodology.md).
+- `index.html`: dashboard entry point
+- `assets/`: dashboard styling and interactions
+- `methodology/`: scope, assessment framework, criteria and methods
+- `templates/`: reusable assessment and tracking templates
+- `assessments/`: tool-specific assessment notes
+- `research/`: tool selection, access checks and sources
+- `findings/`: cross-tool comparison and recommendations

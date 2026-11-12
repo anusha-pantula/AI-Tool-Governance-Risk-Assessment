@@ -55,7 +55,7 @@ This is an educational and research portfolio project. It is not a legal opinion
 
 - `index.html`: dashboard entry point
 - `assets/`: dashboard styling and interactions
-- `methodology/`: scope, assessment framework, criteria and methods
+- `methodology/`: scope, assessment framework, criteria, methods and [practical test execution guide](methodology/practical-test-execution-guide.md)
 - `templates/`: reusable assessment and tracking templates
 - `assessments/`: tool-specific assessment notes and practical results
 - `research/provider-evidence-register.md`: sourced provider documentation and governance implications

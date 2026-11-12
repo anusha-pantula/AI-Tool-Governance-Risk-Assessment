@@ -27,11 +27,12 @@ Sources:
 
 ### Zapier Agents
 
-Zapier's Free plan documentation states that free accounts can access free versions of Zapier Agents and Zapier Chatbots, alongside a monthly task allowance for the Zapier platform. A separate Agents usage page states a 400-activity monthly Free allowance and notes that Zapier is moving Agents to AI by Zapier. These are distinct usage measures described in separate product documents; do not combine them or assume that every account has the same interface. Confirm the product name, current access, and activity counter shown after sign-in.
+Zapier's current documentation still describes a standalone Zapier Agents Free plan with 400 activities per month; tests count toward this allowance, and a single run is limited to 10 activities. Zapier is migrating Agents to AI by Zapier, but its current migration guide says there is no date yet to turn off standalone Agents. Importantly, AI by Zapier itself is not available on the Free plan for adding tools or publishing a Zap: Free users can only preview with the Standard tier. Therefore, the practical free route for this project is to check whether standalone Agents remains accessible at agents.zapier.com. Do not assume that a free Zapier account can build and publish a tool-using agent through AI by Zapier.
 
 Sources:
-- [What's included in Zapier's Free plan?](https://help.zapier.com/hc/en-us/articles/32337438839565-What-s-included-in-Zapier-s-Free-plan)
+- [Migrating from Agents to AI by Zapier](https://help.zapier.com/hc/en-us/articles/47402591569805-Migrating-from-Agents-to-AI-by-Zapier)
 - [How is Zapier Agents usage measured?](https://help.zapier.com/hc/en-us/articles/26559132765325-How-is-Zapier-Agents-usage-measured)
+- [AI by Zapier Free-plan limitations](https://help.zapier.com/hc/en-us/articles/8496342944013-Use-AI-by-Zapier-to-analyze-and-return-data)
 
 ### Adobe Firefly
 

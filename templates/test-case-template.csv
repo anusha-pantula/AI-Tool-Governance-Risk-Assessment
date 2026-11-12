@@ -1,2 +1,2 @@
-test_id,tool_name,category,test_date,plan_or_access_tier,model_or_version,test_objective,use_case_scenario,input_or_prompt,settings,expected_behaviour,observed_output_or_action,task_fulfilment,accuracy_or_fidelity,consistency,uncertainty_handling,human_control,risk_signal,evidence_label,limitations,retest_needed,notes
-T-001,,,,,,,,,,,,,,,,,,,,,
+test_id,tool_name,category,test_slot,test_date,plan_or_access_tier,feature_or_model_version,test_objective,evidence_gap_or_reason,use_case_scenario,input_or_prompt,settings,expected_behaviour,evaluation_criteria,observed_output_or_action,task_fulfilment,accuracy_or_fidelity,consistency,uncertainty_handling,human_control,relevant_dimensions,evidence_label,source_or_reference,risk_or_concern,limitations,credits_or_activities_used,additional_test_needed,additional_test_reason,notes
+T-001,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

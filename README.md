@@ -6,7 +6,9 @@ An evidence-based, repeatable framework for assessing AI tools in general organi
 
 **[Open the interactive project dashboard](https://anusha-pantula.github.io/AI-Tool-Governance-Risk-Assessment/)**
 
-The dashboard is the visual entry point to the project. It summarises the selected tools, assessment dimensions, evidence approach and current testing status. It will be updated as documented assessments are completed.
+The dashboard is the visual entry point to the project. It summarises the selected tools, assessment dimensions, evidence approach and current testing status. It is updated as documented assessments are completed.
+
+The first practical observations are documented in [ChatGPT initial practical results](assessments/chatbot-chatgpt/initial-practical-results.md). The [provider evidence register](research/provider-evidence-register.md) records provider statements and source links.
 
 ## Project purpose
 
@@ -47,7 +49,7 @@ This is an educational and research portfolio project. It is not a legal opinion
 
 ## Current status
 
-**Dashboard prototype created.** Project design, initial tool selection, and owner-reported free access confirmation are complete. Practical testing has not yet begun, and no assessment findings or recommendations have been produced.
+**Dashboard prototype created.** Project design and initial tool selection are complete. Provider documentation has been reviewed and recorded. Four ChatGPT test cases have been executed and documented; the remaining ChatGPT privacy-control check and practical tests for Zapier Agents, Adobe Firefly and Runway are still pending. No overall tool ranking or adoption recommendation has been assigned.
 
 ## Repository structure
 
@@ -55,6 +57,9 @@ This is an educational and research portfolio project. It is not a legal opinion
 - `assets/`: dashboard styling and interactions
 - `methodology/`: scope, assessment framework, criteria and methods
 - `templates/`: reusable assessment and tracking templates
-- `assessments/`: tool-specific assessment notes
+- `assessments/`: tool-specific assessment notes and practical results
+- `research/provider-evidence-register.md`: sourced provider documentation and governance implications
+- `templates/test-case-catalogue.csv`: 20 planned test cases and recorded execution status
+- `templates/initial-risk-register.csv`: preliminary evidence-linked risk register
 - `research/`: tool selection, access checks and sources
 - `findings/`: cross-tool comparison and recommendations
